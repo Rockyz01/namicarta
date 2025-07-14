@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>te amo nami</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://imgs.search.brave.com/G1F21elabAoAg01VxJjkECfGgoz-Gbu9bRbd_ckfVQ0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hdmF0/YXJmaWxlcy5hbHBo/YWNvZGVycy5jb20v/MzU4L3RodW1iLTM1/MC0zNTgyMC53ZWJw">
+  <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom right, #ffeef1, #fffafc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      animation: fadeIn 2s ease-in;
+      position: relative;
+    }
+    h1::after {
+     content: "";
+     display: block;
+     width: 60px;
+     height: 2px;
+     background: #f7cdd5;
+     margin: 10px auto;
+}
+
+    .carta {
+      background: white url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-blend-mode: multiply;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+      max-width: 90%;
+      width: 500px;
+      animation: slideUp 1s ease-out;
+      border: 1.5px solid #f7cdd5;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d36f8f;
+      margin-bottom: 20px;
+      font-family: 'Petit Formal Script', cursive;
+      font-size: 2em;
+    }
+
+    p {
+      color: #444;
+      font-size: 1rem;
+      line-height: 1.6;
+      white-space: pre-line;
+    }
+
+    .firma {
+      margin-top: 30px;
+      text-align: right;
+      color: #888;
+      font-style: italic;
+    }
+    .ig-link {
+      font-size: 0.9rem;
+      color: #d36f8f;
+      text-decoration: none;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+}
+
+.ig-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+    .decor {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      opacity: 0.2;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { background-color: #ffffff; }
+      to { background: linear-gradient(to bottom right, #ffeef1, #fffafc); }
+    }
+
+    @media (max-width: 480px) {
+      .carta {
+        padding: 16px;
+        font-size: 1rem;
+        box-shadow: none;
+        border-radius: 8px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      .firma {
+        font-size: 0.9rem;
+      }
+
+      .decor {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <h1>Para Nami</h1>
+    <p>
+Perdón, Nami.
+
+Sé que no debería hablarte, pero te extraño mucho. Quiero hablar contigo.
+
+También lo siento mucho. Fui desagradable, y si no hubiera sido así, quizá no te hubieran prohibido hablar conmigo. Lo entiendo, pero te extraño y no te preocupes, no tienes que responder a esto.
+
+Solo me gustaría que, a pesar de todo, pudiéramos seguir siendo amigos. Quizá no podamos hablar hoy ni mañana, pero sigamos siendo amigos. Yo siempre voy a pensar en ti como una amiga.
+
+De verdad te quiero y te aprecio mucho desde lo más profundo de mí. Esto me da un poco de vergüenza, pero tuve que dormir con un peluche que me regalaron cuando era niño, porque de lo contrario hubiera llorado dx
+
+Independientemente de todo, espero que estés bien.
+
+Te quiero.
+    </p>
+    <p class="firma">—Rocky.</p>
+  </div>
+<img class="decor" src="image.png" alt="decoración">
+</body>
+</html>
